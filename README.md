@@ -7,7 +7,7 @@
 
 </div>
 
-### Name : Arifian Saputra
+### Name : Muhammad Alfin
 ### Tech Stack : Python, Gradio, LangChain, HuggingFace Embedding, FAISS vector store
 
 ---
@@ -16,7 +16,7 @@
 - TODO
 
 ### 2. Analysis about how different every model works on Retrieval-Augmented Generation
-
+###    Document RAG for analysis: CV of Muhammad Alfin 
 ```python
 def get_llm():
     return ChatGroq(
@@ -28,7 +28,35 @@ def get_llm():
 - Model used : ```[llama-3.3-70b-versatile, deepseek-r1-distill-llama-70b, gemma2-9b-it]```
 
 2.1 Analysis on ```llama-3.3-70b-versatile``` : 
-- TODO
+- Prompt: apa saja keahlian yang dia miliki ?
+- Answer: Berdasarkan informasi yang tersedia, Muhammad Alfin memiliki keahlian sebagai berikut:
+
+**Bahasa:**
+
+* Indonesia (Penutur Asli)
+* Inggris (Kemampuan Tingkat Menengah)
+
+**Hard Skills:**
+
+* HTML
+* CSS
+* Javascript
+* PHP
+* MySQL
+* Python
+* Laravel
+* Flask
+* Restful API
+* Flutter
+
+**Soft Skills:**
+
+* Analitis
+* Kerja Sama Tim
+* Manajemen Waktu
+* Komunikasi Efektif
+
+Selain itu, dia juga memiliki pengalaman dalam pengembangan aplikasi, sistem pendataan, dan proyek-proyek lainnya yang terkait dengan teknologi dan pengembangan perangkat lunak.
 
 2.2 Analysis on ```deepseek-r1-distill-llama-70b``` : 
 - TODO
