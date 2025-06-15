@@ -60,11 +60,56 @@ Berdasarkan informasi yang tersedia, Muhammad Alfin memiliki keahlian sebagai be
 Selain itu, dia juga memiliki pengalaman dalam pengembangan aplikasi, sistem pendataan, dan proyek-proyek lainnya yang terkait dengan teknologi dan pengembangan perangkat lunak.
 ```
 2.2 Analysis on ```deepseek-r1-distill-llama-70b``` : 
-- TODO
+- Prompt: apa saja keahlian yang dia miliki ?
+- Answer:
+```
+<think>
+Okay, so I need to figure out what skills Muhammad Alfin has based on the provided context. Let me go through each section step by step.
+
+First, under the "Kemampuan & Kompetensi" section, it lists both hard and soft skills. The hard skills include HTML, CSS, JavaScript, PHP, MySQL, Python, Laravel, Flask, Restful API, and Flutter. Soft skills are analytical thinking, teamwork, time management, and effective communication.
+
+Looking at his education, he's studying Software Engineering, which probably covers a lot of programming areas. His projects also give clues about his skills. For example, in the Infinite Learning project, he worked on AI algorithms like content-based filtering and the Traveling Salesman Problem, so that adds AI and machine learning to his skills.
+
+In the Toko Sumber Rahayu project, he developed a POS application using Laravel and Flutter, which means he has experience with web and mobile development. He also worked on RESTful APIs and database design, so those are additional skills.
+
+His experience with the UKM IMAM project involved building a web application with PHP, which reinforces his web development skills. Additionally, his involvement in the Robotika organization shows he can handle system design and data management with tools like Excel.
+
+His organizational experience as a leader in OSIS SMP Angkasa Pura indicates strong leadership and organizational skills, which are soft skills.
+
+So, compiling all this, his skills include programming languages, frameworks, AI, data management, leadership, and more. I should list all these points clearly to answer the question about his skills.
+</think>
+
+Muhammad Alfin memiliki berbagai keahlian yang mencakup keterampilan teknis dan non-teknis. Berikut adalah rincian keahliannya:
+
+### Keahlian Teknis (Hard Skills):
+1. **Bahasa Pemrograman**: HTML, CSS, JavaScript, PHP, MySQL, Python.
+2. **Framework dan Library**: Laravel, Flask, Restful API, Flutter.
+3. **Teknologi dan Algoritma**: 
+   - Artificial Intelligence (AI)
+   - Machine Learning
+   - Algoritma seperti Content-Based Filtering dan Traveling Salesman Problem (TSP)
+4. **Database dan API**: Desain database, pengembangan RESTful API.
+5. **Pengembangan Aplikasi**: Web dan mobile development.
+
+### Keahlian Non-Teknis (Soft Skills):
+1. **Analitis**: Kemampuan analisis dan pemecahan masalah.
+2. **Kerja Sama Tim**: Pengalaman dalam memimpin dan bekerja dalam tim.
+3. **Manajemen Waktu**: Kemampuan mengatur waktu secara efektif.
+4. **Komunikasi Efektif**: Kemampuan berkomunikasi dengan baik dalam tim dan dengan klien.
+5. **Kepemimpinan**: Pengalaman memimpin proyek dan organisasi.
+
+### Pengalaman Praktis:
+- **Proyek Infinite Learning**: Mengembangkan aplikasi wisata dengan fitur rekomendasi dan perencanaan rute optimal.
+- **Toko Sumber Rahayu**: Membangun aplikasi POS berbasis web dan mobile.
+- **UKM IMAM**: Membuat aplikasi pemantauan keuangan berbasis web.
+- **Robotika Politeknik Negeri Banyuwangi**: Merancang sistem pendataan komponen robotika untuk meningkatkan efisiensi.
+
+Muhammad Alfin menunjukkan kemampuan yang kuat dalam pengembangan perangkat lunak, dengan fokus pada teknologi terbaru seperti Artificial Intelligence, serta kemampuan kepemimpinan dan kerja tim yang efektif. ```
 
 2.3 Analysis on ```gemma2-9b-it``` : 
-- TODO
-
+- Prompt: apa saja keahlian yang dia miliki ?
+- Answer:
+``` ```
 ### 3. Analysis about how temperature works
 
 ```python
