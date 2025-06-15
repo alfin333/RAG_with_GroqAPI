@@ -59,6 +59,12 @@ Berdasarkan informasi yang tersedia, Muhammad Alfin memiliki keahlian sebagai be
 
 Selain itu, dia juga memiliki pengalaman dalam pengembangan aplikasi, sistem pendataan, dan proyek-proyek lainnya yang terkait dengan teknologi dan pengembangan perangkat lunak.
 ```
+Analysis:
+```
+1. Pemahaman Konteks: Model langsung menjawab pertanyaan berdasarkan informasi eksplisit/permukaan
+2. Integrasi tambahan: Tidak melakukan inferensi tambahan seperti menyimpulkan dari pengalaman proyek atau menambahkan keahlian turunan
+3. Struktur: Rapi, namun pasif (karena menampilkan informasi eksplisitnya saja)
+```
 2.2 Analysis on ```deepseek-r1-distill-llama-70b``` : 
 - Prompt: apa saja keahlian yang dia miliki ?
 - Answer:
@@ -105,6 +111,12 @@ Muhammad Alfin memiliki berbagai keahlian yang mencakup keterampilan teknis dan 
 - **Robotika Politeknik Negeri Banyuwangi**: Merancang sistem pendataan komponen robotika untuk meningkatkan efisiensi.
 
 Muhammad Alfin menunjukkan kemampuan yang kuat dalam pengembangan perangkat lunak, dengan fokus pada teknologi terbaru seperti Artificial Intelligence, serta kemampuan kepemimpinan dan kerja tim yang efektif. 
+```
+- Analysis:
+```
+1. Pemahaman Konteks: Sangat baik, model menyampaikan skill yang eksplisit dan menyimpulkan keahlian dari berbagai bagian (proyek, pengalaman organisasi).
+2. Integrasi Informasi: Model melakukan reasoning antarkonten dan menyatukan insight dari beragam dokumen atau segmen teks.
+3. Struktur: Komprehensif, bernarasi, dan mendalam. Menunjukan reasoning pada tag <think>. (Namun seharusnya tag ini tidak perlu ditampilkan sebagai output default)
 ```
 2.3 Analysis on ```gemma2-9b-it``` : 
 - Prompt: apa saja keahlian yang dia miliki ?
