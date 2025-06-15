@@ -30,8 +30,8 @@ def get_llm():
 2.1 Analysis on ```llama-3.3-70b-versatile``` : 
 - Prompt: apa saja keahlian yang dia miliki ?
 - Answer:
-Berdasarkan informasi yang tersedia, Muhammad Alfin memiliki keahlian sebagai berikut:
 ```
+Berdasarkan informasi yang tersedia, Muhammad Alfin memiliki keahlian sebagai berikut:
 **Bahasa:**
 
 * Indonesia (Penutur Asli)
