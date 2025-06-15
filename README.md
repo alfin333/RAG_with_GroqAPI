@@ -104,12 +104,42 @@ Muhammad Alfin memiliki berbagai keahlian yang mencakup keterampilan teknis dan 
 - **UKM IMAM**: Membuat aplikasi pemantauan keuangan berbasis web.
 - **Robotika Politeknik Negeri Banyuwangi**: Merancang sistem pendataan komponen robotika untuk meningkatkan efisiensi.
 
-Muhammad Alfin menunjukkan kemampuan yang kuat dalam pengembangan perangkat lunak, dengan fokus pada teknologi terbaru seperti Artificial Intelligence, serta kemampuan kepemimpinan dan kerja tim yang efektif. ```
-
+Muhammad Alfin menunjukkan kemampuan yang kuat dalam pengembangan perangkat lunak, dengan fokus pada teknologi terbaru seperti Artificial Intelligence, serta kemampuan kepemimpinan dan kerja tim yang efektif. 
+```
 2.3 Analysis on ```gemma2-9b-it``` : 
 - Prompt: apa saja keahlian yang dia miliki ?
 - Answer:
-``` ```
+```
+Based on the text provided, here are Muhammad Alfin's skills:
+
+**Languages:**
+
+* Indonesian (Native)
+* English (Intermediate)
+
+**Hard Skills:**
+
+* HTML
+* CSS
+* Javascript
+* PHP
+* MySQL
+* Python
+* Laravel
+* Flask
+* Restful API
+* Flutter
+
+**Soft Skills:**
+
+* Analytical
+* Teamwork
+* Time Management
+* Effective Communication 
+
+
+Let me know if you have any other questions. 
+```
 ### 3. Analysis about how temperature works
 
 ```python
