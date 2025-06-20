@@ -170,11 +170,45 @@ def get_llm():
     )
 ```
 
-3.1 Analysis on higher temperature 
-- TODO
+3.1 Analysis on higher temperature (0.9)
+Model: llama-3.3-70b-versatile
+- Prompt: apa ada yang perlu diperbaiki dari cv dia ?
+- Answer:
+```
+Berikut beberapa saran untuk perbaikan CV Muhammad Alfin:
 
-3.2 Analysis on lower temperature
-- TODO
+1. **Format dan Tata Letak**: CV masih terlihat seperti teks yang dipangkas dari dokumen lain. Sebaiknya, gunakan format yang lebih rapi dan mudah dibaca, dengan menggunakan judul, subjudul, dan spasi yang tepat.
+2. **Bahasa**: Beberapa kalimat masih menggunakan bahasa yang kurang formal atau tidak tepat. Pastikan bahasa yang digunakan profesional dan sesuai dengan konteks.
+3. **Konsistensi**: Terdapat beberapa kesalahan ketik dan tidak konsisten dalam penggunaan tanda baca. Periksa kembali CV untuk memastikan tidak ada kesalahan.
+4. **Pengalaman Kerja**: Pengalaman kerja yang disajikan masih terlalu singkat dan tidak memberikan gambaran yang jelas tentang tanggung jawab dan prestasi yang dicapai. Sebaiknya, tambahkan lebih banyak detail tentang proyek yang dikerjakan, peran yang dimainkan, dan hasil yang dicapai.
+5. **Kemampuan dan Kompetensi**: Daftar kemampuan dan kompetensi yang disajikan masih terlalu panjang dan tidak terstruktur dengan baik. Sebaiknya, kelompokkan kemampuan dan kompetensi ke dalam kategori yang lebih spesifik dan relevan dengan posisi yang dilamar.
+6. **Pendidikan**: Informasi pendidikan masih kurang lengkap. Sebaiknya, tambahkan informasi tentang jurusan, IPK, dan tahun lulus.
+7. **Proyek**: Proyek yang disajikan masih terlalu singkat dan tidak memberikan gambaran yang jelas tentang proyek yang dikerjakan. Sebaiknya, tambahkan lebih banyak detail tentang proyek, peran yang dimainkan, dan hasil yang dicapai.
+8. **Kata Kunci**: Sebaiknya, tambahkan kata kunci yang relevan dengan posisi yang dilamar untuk memudahkan recruiter menemukan CV.
+
+Dengan perbaikan-perbaikan tersebut, CV Muhammad Alfin dapat menjadi lebih efektif dalam menyajikan informasi tentang kemampuan, pengalaman, dan prestasi yang dicapai.
+```
+- Analysis: Gaya bahasa lebih ekspresif dan naratif, model memberikan saran yang luas dan beragam, model berani menuangkan ide-ide luas seperti "tambahkan detail proyek" dan "kelompokkan kemampuan" menunjukkan eksplorasi yang luas, cocok untuk brainstorming (mengumpulkan gagasan, ide, solusi)
+
+3.2 Analysis on lower temperature (0.1)
+Model: llama-3.3-70b-versatile
+- Prompt: apa ada yang perlu diperbaiki dari cv dia ?
+- Answer:
+```
+Berikut beberapa saran untuk perbaikan CV Muhammad Alfin:
+
+1. **Format dan Tata Letak**: CV terlihat seperti teks yang dipanjangkan tanpa format yang jelas. Saran: gunakan format yang lebih terstruktur, dengan judul, subjudul, dan paragraf yang jelas.
+2. **Konsistensi Ejaan dan Tanda Baca**: Terdapat beberapa kesalahan ejaan dan tanda baca, seperti penggunaan spasi yang tidak konsisten. Saran: periksa kembali CV untuk memastikan ejaan dan tanda baca yang benar.
+3. **Penggunaan Bahasa**: Bahasa yang digunakan terkadang tidak formal atau tidak sesuai dengan konteks CV. Saran: gunakan bahasa yang lebih formal dan profesional.
+4. **Penjelasan yang Terlalu Panjang**: Beberapa penjelasan tentang proyek atau pengalaman kerja terlalu panjang dan tidak efektif. Saran: ringkas penjelasan menjadi poin-poin yang lebih singkat dan efektif.
+5. **Kurangnya Spesifikasi**: Beberapa bagian CV, seperti "Kemampuan & Kompetensi", kurang spesifik dan tidak menjelaskan secara detail kemampuan yang dimiliki. Saran: tambahkan contoh atau penjelasan yang lebih spesifik tentang kemampuan yang dimiliki.
+6. **Tidak Ada Foto**: CV tidak memiliki foto, yang dapat membantu memperkuat identitas dan profesionalisme. Saran: tambahkan foto yang profesional dan sesuai dengan konteks CV.
+7. **Kurangnya Informasi tentang Prestasi**: CV tidak menyebutkan prestasi atau penghargaan yang telah diterima. Saran: tambahkan informasi tentang prestasi atau penghargaan yang relevan dengan bidang yang diminati.
+8. **Perlu Lebih Banyak Kata Kunci**: CV tidak memiliki kata kunci yang cukup untuk membantu recruiter atau sistem pencarian CV menemukan CV tersebut. Saran: tambahkan kata kunci yang relevan dengan bidang yang diminati.
+
+Dengan memperbaiki beberapa hal di atas, CV Muhammad Alfin dapat menjadi lebih efektif dan profesional.
+```
+- Analysis: Gaya bahasa ringkas dan terstruktur, model memberikan respon yang jelas, langsung, dan aman, model lebih formal dan preskriptif dalam memberikan jawaban, cocok untuk review cepat dan teknis
 
 ### 4. How to run the project
 
@@ -192,9 +226,17 @@ GROQ_API_KEY=your-groq-api-key
 
 - Fill the ```GROQ_API_KEY``` with your Groq API Key, find it here : https://console.groq.com/keys
 
-- TODO
-- TODO
-- TODO
+- Make virtual environment:
+  ```
+  python -m venv venv
+  ```
+- Activate the virtual environment:
+  ```
+  venv\Scripts\activate        # Windows
+  source venv/bin/activate      # macOS/Linux
+  ```
+  Note: if error, try execute "Set-ExecutionPolicy RemoteSigned" on powershell as administrator
+- 
 - TODO
 - TODO
 - TODO
