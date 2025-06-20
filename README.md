@@ -13,7 +13,7 @@
 ---
 
 ### 1. Analysis about how the project works
-- TODO
+- Proyek ini adalah aplikasi sederhana yang memungkinkan pengguna untuk mengunggah file PDF dan mengajukan pertanyaan berdasarkan isi dokumen tersebut menggunakan teknik Retrieval-Augmented Generation (RAG). Aplikasi ini menggunakan Groq API Key untuk mengakses LLM yang kuat sehingga mampu memberikan jawaban kontekstual berdasarkan dokumen yang diunggah. Dalam proyek ini, saya mengunggah file berjudul "Muhammad Alfin_CV" yang berisi curriculum vitae saya untuk direview dan dianalisis melalui aplikasi.
 
 ### 2. Analysis about how different every model works on Retrieval-Augmented Generation
 ###    Document RAG for analysis: CV of Muhammad Alfin 
@@ -235,9 +235,15 @@ GROQ_API_KEY=your-groq-api-key
   venv\Scripts\activate        # Windows
   source venv/bin/activate      # macOS/Linux
   ```
-  Note: if error, try execute "Set-ExecutionPolicy RemoteSigned" on powershell as administrator
-- 
-- TODO
-- TODO
-- TODO
-- TODO
+  Note: if error, try execute "Set-ExecutionPolicy RemoteSigned" on powershell as administrator, then try to activate the venv again
+- Install dependencies:
+  ```
+  pip install -r requirements.txt
+  ```
+- Run the program:
+  ```
+  python app.py
+  ```
+- Open on browser URL: http://127.0.0.1:7860
+- or Open on public URL: https://23d2474eefc32b07db.gradio.live
+  Note: this code "demo.launch(share=True)" must be set True first, (it's on app.py)
